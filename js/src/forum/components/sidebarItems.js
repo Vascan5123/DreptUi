@@ -25,18 +25,6 @@ export default function () {
       }
     }
 
-    /* items.add(
-      "CereUnArticol",
-      Button.component(
-        {
-          buttonClassName: "Button",
-          className: "Button Button--primary btn_cere_un_articol",
-          href: app.route('index'),
-        },
-        app.translator.trans('dreptui.forum.CereUnArticol')
-      )
-    ); */
-
     items.add(
       "nav_Navigation",
       SelectDropdown.component(
